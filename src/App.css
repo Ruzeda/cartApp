@@ -6,20 +6,20 @@
   border: 1px solid #ff99a6; /* Medium pink border */
   border-radius: 5px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  overflow: hidden;
-  text-align: center;
+  text-align: center; /* Center the text horizontally */
+  font-family: cursive; 
 }
-
-.product-slider-wrapper {
+.product-slider__wrapper {
   display: flex;
-  flex-direction: row;
-  gap: 20px;
-  justify-content: center;
+  flex-direction: row; /* Display products horizontally */
+  justify-content: center; /* Center the items horizontally */
+  overflow: auto; /* Enable horizontal scrolling if needed */
+  padding: 10px; /* Add some padding for spacing between items */
 }
 
-.product-slider-item {
-  min-width: 150px;
-  background: #ffdde6; /* Light pink background */
+.product-slider__item {
+  min-width: 150px; /* Adjust the minimum width for responsiveness */
+  background: #ffd5d5; /* Light pink background */
   border: 1px solid #ff99a6; /* Medium pink border */
   border-radius: 5px;
   padding: 10px;
@@ -27,34 +27,35 @@
   scroll-snap-stop: always;
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: center; /* Center content vertically and horizontally */
 }
 
-.product-slider-item img {
+.product-slider__item img {
   display: block;
-  max-width: 30%;
+  max-width: 100%;
   height: auto;
   margin: 0 auto;
-  width: 50px;
 }
 
 h3, p {
   margin: 0;
-  text-align: center;
+  text-align: center; /* Center text horizontally */
+  font-family:  cursive; 
 }
 
 button {
-  background: #ff007f; /* Pink background */
+  background: #ff66a3; /* Dark pink background */
   color: #fff;
   border: none;
   padding: 5px 10px;
   border-radius: 5px;
   cursor: pointer;
   margin-top: auto;
+  font-family: cursive;
 }
 
 button:hover {
-  background: #ff005a; /* Darker pink on hover */
+  background: #ff3385; /* Darker pink background */
 }
 
 .product-details {
@@ -75,25 +76,29 @@ button:hover {
 }
 
 .product-details h1 {
-  text-align: center;
+  text-align: center; /* Center the text horizontally */
   font-size: 24px;
   margin-bottom: 10px;
+  font-family: cursive;
 }
 
 .product-details h3 {
-  text-align: center;
+  text-align: center; /* Center the text horizontally */
   font-size: 18px;
   margin: 10px 0;
+  font-family: cursive; 
 }
 
 .product-details p {
   font-size: 16px;
   margin: 10px 0;
-  text-align: center;
+  text-align: center; /* Center text horizontally */
+  font-family: cursive; 
 }
 
 .product-details .loading {
-  text-align: center;
+  text-align: center; /* Center the text horizontally */
   font-size: 18px;
   color: #888;
+  font-family: cursive;
 }
