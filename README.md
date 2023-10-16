@@ -16,7 +16,7 @@ This App is a products list using an Api.  You can click on a product to view de
 To run the project locally, follow these steps:
 
 1. Clone the repository to your local machine:
-git clone https://github.com/thakiddx/shoppingCartApp
+git clone https://github.com/Ruzeda/cartApp
 cd shoppingCartApp
 2. Install dependencies:
 npm install
@@ -24,7 +24,7 @@ npm install
 npm start
 4. Open your web browser and navigate to [http://localhost:3000](http://localhost:3000) to view the app.
 
-The app is also deployed on [Render](https://productslistmod2.onrender.com/).
+The app is also deployed on [Render](https://ruzedacartapp.onrender.com/).
 
 ## Unsolved Problems
 
@@ -44,6 +44,6 @@ Here are some future features and enhancements planned for the project:
 
 ## Hosted App
 
-You can access the hosted working app on [Render](https://productslistmod2.onrender.com/).
+You can access the hosted working app on [Render](https://ruzedacartapp.onrender.com/).
 
 # cartApp
