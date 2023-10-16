@@ -2,73 +2,72 @@
   max-width: 800px;
   margin: 0 auto;
   padding: 20px;
-  background-color: #f8f8f8;
-  border: 1px solid #ccc;
+  background-color: #ffe3e3; /* Light pink background */
+  border: 1px solid #ff99a6; /* Medium pink border */
   border-radius: 5px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   overflow: hidden;
-  text-align: center; /* Center the content horizontally */
+  text-align: center;
 }
 
 .product-slider-wrapper {
   display: flex;
   flex-direction: row;
   gap: 20px;
-  justify-content: center; /* Center the items horizontally */
+  justify-content: center;
 }
 
 .product-slider-item {
-  min-width: 150px; /* Adjust the minimum width for responsiveness */
-  background: #f7f7f7;
-  border: 1px solid #e0e0e0;
+  min-width: 150px;
+  background: #ffdde6; /* Light pink background */
+  border: 1px solid #ff99a6; /* Medium pink border */
   border-radius: 5px;
   padding: 10px;
   text-align: center;
   scroll-snap-stop: always;
   display: flex;
   flex-direction: column;
-  align-items: center; /* Center content vertically and horizontally */
+  align-items: center;
 }
 
 .product-slider-item img {
-  /* Center the image */
   display: block;
   max-width: 30%;
   height: auto;
-  margin: 0 auto; /* Center the image horizontally */
-  width: 50px; /* Set a fixed width for the images */
+  margin: 0 auto;
+  width: 50px;
 }
 
 h3, p {
   margin: 0;
-  text-align: center; /* Center text horizontally */
+  text-align: center;
 }
 
 button {
-  background: #007BFF;
+  background: #ff007f; /* Pink background */
   color: #fff;
   border: none;
   padding: 5px 10px;
   border-radius: 5px;
   cursor: pointer;
-  margin-top: auto; /* Center the button vertically */
+  margin-top: auto;
 }
 
 button:hover {
-  background: #0056b3;
+  background: #ff005a; /* Darker pink on hover */
 }
+
 .product-details {
   max-width: 800px;
   margin: 0 auto;
   padding: 20px;
-  background-color: #f8f8f8;
-  border: 1px solid #ccc;
+  background-color: #ffe3e3; /* Light pink background */
+  border: 1px solid #ff99a6; /* Medium pink border */
   border-radius: 5px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 .product-details img {
-/*center the image*/
   display: block;
   margin: 0 auto;
   max-width: 33%;
@@ -76,7 +75,6 @@ button:hover {
 }
 
 .product-details h1 {
-  /*center the text*/
   text-align: center;
   font-size: 24px;
   margin-bottom: 10px;
